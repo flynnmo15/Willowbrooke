@@ -138,3 +138,27 @@ div.footer img {
  .active {
     border-bottom: 1px solid #172A3A !important;
  }
+
+ .underline_lr {
+     padding-bottom: 15px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 1s linear;
+ }
+ .underline_lr:hover {
+    right: 0%;
+    border-bottom: 2px solid #172A3A;
+ }
+
+ #bio {
+     margin-top: 20px;
+     min-height: 200px;
+ }
+
+
+  /* ******************** ICONS ******************** */
+  .fa-angle-double-down {
+    color: #172A3A;
+    font-size: 18pt;
+    text-align: center;
+    margin-top: 10px;
+  }
