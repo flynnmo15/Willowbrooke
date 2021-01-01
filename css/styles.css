@@ -39,10 +39,13 @@
  .horizontal_flex_container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .stand_alone_section {
-    margin: 2% 12%;
+    margin: 2% 5%;
 }
 
 
@@ -88,11 +91,31 @@ div.footer img {
     margin-bottom: -40px;
     color: #014979;
  }
+ h3 {
+    font-size: 24pt;
+    font-variant: small-caps;
+    font-weight: lighter;
+    padding: 0;
+    color: #939799;
+    text-align: center;
+ }
+ h4 {
+     font-size: 16pt;
+     text-align: center;
+     margin-bottom: 0;
+ }
+ h5 {
+     font-size: 12pt;
+     text-align: center;
+     margin: 0;
+     color: #939799;
+ }
  p {
      font-size: 14pt;
      text-align: center;
      letter-spacing: .5px;
      line-height: 1.75;
+     margin: 1% 7%;
  }
 
  /* ******************** SPECIFIC ELEMENT STYLING ******************** */
